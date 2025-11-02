@@ -25,7 +25,7 @@ const getPokemons = async (limit=20,offset=0):Promise<SimplePokemon[]>=>{
 export default async function PokemonsPage() {
 
       
-    const pokemons = await getPokemons(20);
+    const pokemons = await getPokemons(150);
 
   return (
     <div className="flex flex-col">
