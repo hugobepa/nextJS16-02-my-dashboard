@@ -1,6 +1,8 @@
+import { FavoritePokemons } from './components/FavoritePokemons';
 export type{PokemonsResponse,Result} from './interfaces/pokemon-response'
 export type {SimplePokemon} from './interfaces/simple-pokemon'
 export   {PokemonGrid} from './components/PokemonGrid'
 export   {PokemonCard} from './components/PokemonCard'
 export type {Pokemon} from './interfaces/pokemon'
 export type {PokemonName} from'./interfaces/pokemon-name'
+export   {FavoritePokemons} from './components/FavoritePokemons'
